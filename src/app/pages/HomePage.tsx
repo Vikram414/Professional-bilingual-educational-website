@@ -322,11 +322,15 @@ function HomePage() {
                     <br className="sm:hidden" />
 
                     <span
-                      className="block sm:inline-block mt-2 sm:mt-0
-  bg-gradient-to-r from-[#dff6ff] via-white to-[#8be9ff]
-  bg-clip-text text-transparent
-  drop-shadow-[0_8px_25px_rgba(0,183,255,0.4)]
-  whitespace-nowrap"
+                      className="
+    block sm:inline-block
+    mt-2 sm:mt-0
+    bg-gradient-to-r from-[#dff6ff] via-white to-[#8be9ff]
+    bg-clip-text text-transparent
+    drop-shadow-[0_8px_25px_rgba(0,183,255,0.4)]
+    leading-tight
+    pb-1
+  "
                     >
                       {language === "en" ? " Pandharpur" : "पंढरपूर"}
                     </span>

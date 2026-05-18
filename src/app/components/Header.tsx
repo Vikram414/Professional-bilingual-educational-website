@@ -21,6 +21,7 @@ export function Header() {
 
   const toggleLanguage = () => {
     setLanguage(language === "en" ? "mr" : "en");
+    setIsOpen(false); // 🔥 THIS FIX
   };
 
   /* ================= NAV LINKS ================= */
