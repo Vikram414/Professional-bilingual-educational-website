@@ -1,0 +1,56 @@
+@import "./fonts.css";
+@import "./tailwind.css";
+@import "./theme.css";
+
+body {
+  font-family: "Inter", "Poppins", sans-serif;
+  background: #f8fafc;
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+html[lang="mr"] body {
+  font-family: "Amita", serif;
+}
+
+/* @font-face {
+  font-family: "EduardoTunni";
+  src: url("/fonts/EduardoTunni.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BrianBonislawsky";
+  src: url("/fonts/BrianBonislawsky.ttf") format("truetype");
+} */
+
+.amita-regular {
+  font-family: "Amita", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amita-bold {
+  font-family: "Amita", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.gelasio-regular {
+  font-family: "Gelasio", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.gelasio-italic {
+  font-family: "Gelasio", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.gelasio-medium {
+  font-family: "Gelasio", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.gelasio-medium-italic {
+  font-family: "Gelasio", serif;
+  font-weight: 500;
+  font-style: italic;
+}
