@@ -23,8 +23,6 @@ import {
   Keyboard,
   FileText,
   Calculator,
-  ChevronLeft,
-  ChevronRight,
   Sparkles,
 } from "lucide-react";
 
@@ -62,12 +60,6 @@ function HomePage() {
     "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
 
     "https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1600&auto=format&fit=crop",
-
-    // "/images/home6.jpg",
-
-    // "/images/home7.jpg",
-    // "/images/home8.jpg",
-    // "/images/home9.jpg",
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -267,7 +259,7 @@ function HomePage() {
 
       <section className="relative overflow-hidden">
         {/* CAROUSEL */}
-        {/* <div className="relative h-[660px] md:h-[650px] w-full"> */}
+
         <div className="relative h-[460px] md:h-[480px] lg:h-[520px] w-full py-70">
           {heroImages.map((image, index) => (
             <div
@@ -290,7 +282,6 @@ function HomePage() {
 
           {/* CONTENT */}
 
-          {/* <div className="absolute inset-0 z-20 flex items-center"> */}
           <div className="absolute inset-0 z-20 flex items-center pt-2 md:pt-4">
             <div className="container mx-auto px-4">
               <motion.div
@@ -330,7 +321,13 @@ function HomePage() {
                     {/* mobile only line break */}
                     <br className="sm:hidden" />
 
-                    <span className="bg-gradient-to-r from-[#dff6ff] via-white to-[#8be9ff] bg-clip-text text-transparent drop-shadow-[0_8px_25px_rgba(0,183,255,0.4)] whitespace-nowrap">
+                    <span
+                      className="block sm:inline-block mt-2 sm:mt-0
+  bg-gradient-to-r from-[#dff6ff] via-white to-[#8be9ff]
+  bg-clip-text text-transparent
+  drop-shadow-[0_8px_25px_rgba(0,183,255,0.4)]
+  whitespace-nowrap"
+                    >
                       {language === "en" ? " Pandharpur" : "पंढरपूर"}
                     </span>
                   </h2>
@@ -402,22 +399,6 @@ function HomePage() {
               </motion.div>
             </div>
           </div>
-
-          {/* LEFT BUTTON */}
-          <button
-            onClick={prevSlide}
-            className="absolute left-4 top-1/2 -translate-y-1/2 z-30 w-11 h-11 rounded-full bg-white/15 backdrop-blur-xl border border-white/20 flex items-center justify-center text-white hover:bg-white/25 transition-all"
-          >
-            <ChevronLeft className="h-6 w-6" />
-          </button>
-
-          {/* RIGHT BUTTON */}
-          <button
-            onClick={nextSlide}
-            className="absolute right-4 top-1/2 -translate-y-1/2 z-30 w-11 h-11 rounded-full bg-white/15 backdrop-blur-xl border border-white/20 flex items-center justify-center text-white hover:bg-white/25 transition-all"
-          >
-            <ChevronRight className="h-6 w-6" />
-          </button>
         </div>
       </section>
 
