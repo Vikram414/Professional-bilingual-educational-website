@@ -29,6 +29,18 @@ export function GalleryPage() {
     "/images/imgi_7.jpg",
     "/images/imgi_8.jpg",
     "/images/imgi_9.jpg",
+    "/images/imgi_10.jpg",
+    "/images/imgi_11.jpg",
+    "/images/imgi_12.jpg",
+    "/images/imgi_13.jpg",
+    "/images/imgi_14.jpg",
+    "/images/imgi_15.jpg",
+    "/images/imgi_16.jpg",
+    "/images/imgi_17.jpg",
+    "/images/imgi_18.jpg",
+    "/images/imgi_19.jpg",
+    "/images/imgi_20.jpg",
+    "/images/imgi_21.jpg",
   ];
 
   /* ================= IMAGES ================= */
