@@ -108,11 +108,11 @@ export function Footer() {
               {[
                 {
                   icon: Facebook,
-                  link: "https://facebook.com",
+                  link: "https://www.facebook.com/mandiracomputers",
                 },
                 {
                   icon: Instagram,
-                  link: "https://instagram.com",
+                  link: "https://www.instagram.com/mandiracomputers?igsh=eHk1bW5ocnB5cWdh",
                 },
                 {
                   icon: Youtube,
