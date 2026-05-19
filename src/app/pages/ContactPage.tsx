@@ -135,12 +135,12 @@ function ContactPage() {
               </h2>
 
               <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=mandirainstitute@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=mandiracomputers@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#0078D4] font-semibold break-all hover:text-[#005fa3] hover:underline transition-all duration-300"
               >
-                mandirainstitute@gmail.com
+                mandiracomputers@gmail.com
               </a>
             </motion.div>
           </div>

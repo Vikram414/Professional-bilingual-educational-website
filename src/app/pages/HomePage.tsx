@@ -95,7 +95,7 @@ function HomePage() {
 
     {
       icon: Users,
-      value: "10000+",
+      value: "30000+",
       label: t("studentsEnrolled"),
     },
 
