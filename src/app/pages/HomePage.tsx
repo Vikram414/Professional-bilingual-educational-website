@@ -353,12 +353,15 @@ function HomePage() {
                     </div>
 
                     <div className="lg:hidden">
-                      <span className="block text-[26px] sm:text-4xl md:text-5xl font-extrabold leading-tight tracking-tight bg-gradient-to-r from-[#dff6ff] via-white to-[#8be9ff] bg-clip-text text-transparent drop-shadow-[0_8px_25px_rgba(0,183,255,0.4)]">
+                      <span className="block text-[26px] sm:text-4xl md:text-5xl font-extrabold leading-snug bg-gradient-to-r from-[#dff6ff] via-white to-[#8be9ff] bg-clip-text text-transparent drop-shadow-[0_8px_25px_rgba(0,183,255,0.4)]">
+                        {/* <span className="block text-[28px] sm:text-4xl md:text-5xl font-extrabold leading-tight tracking-tight bg-gradient-to-r from-[#dff6ff] via-white to-[#8be9ff] bg-clip-text text-transparent drop-shadow-[0_8px_25px_rgba(0,183,255,0.4)]"> */}
+                        {/* <span className="block text-[29px] sm:text-4xl md:text-5xl font-extrabold leading-tight tracking-tight bg-gradient-to-r from-[#dff6ff] via-white to-[#8be9ff] bg-clip-text text-transparent drop-shadow-[0_8px_25px_rgba(0,183,255,0.4)]"> */}
                         {language === "en"
                           ? "Typing & Shorthand Institute,"
                           : "टायपिंग आणि शॉर्टहँड इन्स्टिट्यूट,"}
                       </span>
 
+                      {/* <span className="block mt-2 text-[26px] sm:text-4xl md:text-5xl font-extrabold leading-snug bg-gradient-to-r from-[#dff6ff] via-white to-[#8be9ff] bg-clip-text text-transparent drop-shadow-[0_8px_25px_rgba(0,183,255,0.4)]"> */}
                       <span className="block mt-1 text-[26px] sm:text-4xl md:text-5xl font-extrabold leading-tight tracking-tight bg-gradient-to-r from-[#dff6ff] via-white to-[#8be9ff] bg-clip-text text-transparent drop-shadow-[0_8px_25px_rgba(0,183,255,0.4)]">
                         {language === "en" ? "Pandharpur" : "पंढरपूर"}
                       </span>
