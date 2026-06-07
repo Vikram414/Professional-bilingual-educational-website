@@ -5,4 +5,39 @@
     <lastmod>2026-06-07</lastmod>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://www.mandiracomputers.in/about</loc>
+    <lastmod>2026-06-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mandiracomputers.in/batches</loc>
+    <lastmod>2026-06-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mandiracomputers.in/courses</loc>
+    <lastmod>2026-06-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mandiracomputers.in/contact</loc>
+    <lastmod>2026-06-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mandiracomputers.in/gallery</loc>
+    <lastmod>2026-06-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mandiracomputers.in/faq</loc>
+    <lastmod>2026-06-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mandiracomputers.in/certificates</loc>
+    <lastmod>2026-06-07</lastmod>
+    <priority>0.7</priority>
+  </url>
 </urlset>
